@@ -1,0 +1,29 @@
+{
+  "name": "banned-in-turkey",
+  "version": "0.0.0",
+  "description": "A simple application + API for checking if a URL or IP address is blocked in Turkey",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "block",
+    "ban"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/banned-in-turkey.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "concat-stream": "^1.4.4",
+    "debug": "^0.7.4",
+    "browserify": "^3.38.0",
+    "jsonp": "0.0.3",
+    "page": "^1.3.7",
+    "circle": "0.0.9",
+    "memoize-with-leveldb": "0.0.1",
+    "domquery": "^1.0.1"
+  }
+}
